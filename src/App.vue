@@ -58,6 +58,7 @@
             @edit="onHtmlEdit"
             @revert="revertHtml"
             @collapse="collapseHtmlPane"
+            @warn="notify"
           />
         </div>
 
